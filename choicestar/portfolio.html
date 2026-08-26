@@ -119,9 +119,12 @@ section{scroll-margin-top:90px}
     </div>
     <!-- Hero 右侧：浏览器框内嵌真实原型 -->
     <div class="relative reveal in">
-      <div class="browser" style="animation:floaty 6s ease-in-out infinite">
+      <div class="browser group" style="animation:floaty 6s ease-in-out infinite">
         <div class="browser-bar"><i class="bg-danger/70"></i><i class="bg-warn/70"></i><i class="bg-ok/70"></i><span class="browser-url">choicestar.cn · 智能填报</span></div>
-        <iframe src="index.html" title="择校星可交互原型" class="w-full h-[420px] border-0" loading="lazy"></iframe>
+        <div class="relative">
+          <iframe src="index.html" title="择校星可交互原型" class="w-full h-[520px] border-0" loading="lazy"></iframe>
+          <a href="index.html" target="_blank" class="absolute top-3 right-3 z-10 px-2.5 py-1.5 rounded-lg bg-ink/80 text-white text-[11px] font-bold backdrop-blur hover:bg-primary transition-colors pointer-events-none group-hover:pointer-events-auto">✦ 真实可交互原型</a>
+        </div>
       </div>
       <div class="absolute -bottom-5 -left-5 card px-4 py-3 flex items-center gap-3 shadow-lg" style="animation:floaty 5s .8s ease-in-out infinite">
         <span class="w-9 h-9 rounded-xl bg-ok/10 text-ok flex items-center justify-center">✓</span>
@@ -778,9 +781,12 @@ section{scroll-margin-top:90px}
       <span class="tag">💡 试试：模拟填报里拖拽志愿排序</span>
       <span class="tag">💡 试试：做一次霍兰德测评</span>
     </div>
-    <div class="browser">
+    <div class="browser group">
       <div class="browser-bar"><i class="bg-danger/70"></i><i class="bg-warn/70"></i><i class="bg-ok/70"></i><span class="browser-url">https://choicestar.cn — 可交互原型（HTML / Tailwind / 原生 JS）</span></div>
-      <iframe src="index.html" title="择校星可交互高保真原型" class="w-full h-[560px] border-0" loading="lazy"></iframe>
+      <div class="relative">
+        <iframe src="index.html" title="择校星可交互高保真原型" class="w-full h-[560px] border-0" loading="lazy"></iframe>
+        <a href="index.html" target="_blank" class="absolute top-3 right-3 z-10 px-2.5 py-1.5 rounded-lg bg-ink/80 text-white text-[11px] font-bold backdrop-blur hover:bg-primary transition-colors pointer-events-none group-hover:pointer-events-auto">✦ 真实可交互原型</a>
+      </div>
     </div>
   </div>
 </section>
